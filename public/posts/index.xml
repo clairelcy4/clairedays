@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Claire Days</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Claire Days</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Nov 2025 08:09:56 +1000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World Page Test</title>
+      <link>http://localhost:1313/posts/about/</link>
+      <pubDate>Thu, 27 Nov 2025 08:09:56 +1000</pubDate>
+      <guid>http://localhost:1313/posts/about/</guid>
+      <description>&lt;h1 id=&#34;heading-1--主標題測試&#34;&gt;Heading 1 — 主標題測試&lt;/h1&gt;&#xA;&lt;p&gt;這是一段普通的段落（paragraph），用來測試 Hugo 主題是否正確渲染基本文本格式。你應該能看到標題、段落、空行、字距都正常顯示。&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading-2--次標題測試&#34;&gt;Heading 2 — 次標題測試&lt;/h2&gt;&#xA;&lt;p&gt;以下是一些常見格式，確認你的 Hugo 主題是否完整支援：&lt;/p&gt;&#xA;&lt;h3 id=&#34;heading-3--再下一層標題測試&#34;&gt;Heading 3 — 再下一層標題測試&lt;/h3&gt;&#xA;&lt;p&gt;這裡是一段補充說明文字，用來測試段落與標題之間的距離、行高是否正常。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;bullet-points-測試項目符號&#34;&gt;Bullet Points 測試（項目符號）&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;第一個 bullet point&lt;/li&gt;&#xA;&lt;li&gt;第二個 bullet point，測試字行長度是否正常換行&lt;/li&gt;&#xA;&lt;li&gt;第三個 bullet point（長一點的文字也會正常顯示）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;number-list-測試編號列表&#34;&gt;Number List 測試（編號列表）&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;第一項&lt;/li&gt;&#xA;&lt;li&gt;第二項&lt;/li&gt;&#xA;&lt;li&gt;第三項（用來確認數字格式是否正常）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;以上就是一個基本的 Hugo Markdown 測試頁面。若你在 &lt;code&gt;hugo server&lt;/code&gt; 預覽中看到所有格式都正常渲染，就代表你的主題安裝與內容設定都成功了！&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

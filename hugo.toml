@@ -1,3 +1,34 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Claire Days"
+theme = "hugo-myportfolio-theme"
+
+[params]
+  enableSEO = true
+
+  [params.homepage]
+    sections = ["home", "about", "services", "skills", "contact"]
+
+  [params.navigation.links]
+    home = "HOME"
+    about = "ABOUT"
+    services = "SERVICES"
+    skills = "SKILLS"
+    contact = "CONTACT"
+
+#########################################
+# HOME SECTION
+#########################################
+[params.home]
+  title = "Claire Days"
+  subtitle = "Welcome to my Portfolio"
+  text = "Exploring IT, creativity, and everything in between."
+  background_opacity = 40
+
+#########################################
+# ABOUT SECTION
+#########################################
+[params.about]
+  title = "ABOUT"
+  profile_text = "Hi, I'm Claire!"
+  main_text = "A creator and IT student based in Brisbane — sharing my_"
