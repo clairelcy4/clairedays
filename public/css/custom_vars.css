@@ -1,4 +1,3 @@
-/* TODO: replace with content of my website's custom (with all variables commented) */
 /* Custom CSS variables overrides.
   This file is included after "default.css" and before "theme.css".
   Hence only variables overrides should be defined here,
@@ -7,118 +6,73 @@
   Rule overrides should be defined in "custom.css".
 */
 :root{
-    /*
-        Override desired values for the custom variables.
-        This file must be copied to the "static/css" directory of the site.
-    */
+    /* GitHub-inspired dark palette */
+    --GENERAL-COLOR-1: #2f81f7;
+    --GENERAL-COLOR-2: #161b22;
+    --GENERAL-FONT-COLOR-1: #e6edf3;
+    --GENERAL-FONT-COLOR-2: #58a6ff;
+    --GENERAL-FONT-COLOR-3: #0d1117;
+    --GENERAL-FONT-COLOR-4: #8b949e;
+    --GENERAL-LINK-COLOR-1: #58a6ff;
+    --GENERAL-LINK-ACTIVE-COLOR-1: #79c0ff;
+    --GENERAL-LINK-COLOR-2: #8b949e;
+    --GENERAL-LINK-ACTIVE-COLOR-2: #e6edf3;
+    --GENERAL-BOX-SHADOW: 0 12px 30px rgba(0, 0, 0, 0.35);
 
-    /* GENERAL */
-/*
-    --GENERAL-FONT: var(--GENERAL-FONT-1);
-    --TITLE-FONT: var(--GENERAL-FONT-2);
+    --HR-BORDER-COLOR: #21262d;
+    --HR-BORDER-LIGHT-COLOR: #30363d;
 
-    --BUTTON-FONT: var(--GENERAL-FONT-2);
-*/
-
-    /* HORIZONTAL RULE (HR) */
-/*
-    --HR-BORDER-COLOR: var(--GENERAL-COLOR-1);
-    --HR-BORDER-LIGHT-COLOR: var(--GENERAL-COLOR-2);
-*/
-
-
-    /* NAVBAR */
-/*
-    --NAVBAR-BACKGROUND-COLOR: rgba(255, 255, 255, .3);
-    --NAVBAR-FONT: var(--GENERAL-FONT-2);
-    --NAVBAR-BRAND-FONT: var(--GENERAL-FONT-3);
-    --NAVBAR-BRAND-COLOR: var(--GENERAL-FONT-COLOR-1);
-    --NAVBAR-BRAND-HOVER-COLOR: var(--GENERAL-FONT-COLOR-2);
-    --NAVBAR-BUTTON-COLOR: var(--GENERAL-FONT-COLOR-1);
-    --NAVBAR-BUTTON-HOVER-COLOR: var(--GENERAL-FONT-COLOR-2);
-    --NAVBAR-BUTTON-ACTIVE-COLOR: var(--GENERAL-FONT-COLOR-2);
+    /* Navbar */
+    --NAVBAR-BACKGROUND-COLOR: rgba(13, 17, 23, 0.85);
+    --NAVBAR-BRAND-COLOR: #e6edf3;
+    --NAVBAR-BRAND-HOVER-COLOR: #79c0ff;
+    --NAVBAR-BUTTON-COLOR: #e6edf3;
+    --NAVBAR-BUTTON-HOVER-COLOR: #79c0ff;
+    --NAVBAR-BUTTON-ACTIVE-COLOR: #79c0ff;
     --NAVBAR-BUTTON-ACTIVE-BACKGROUND-COLOR: transparent;
-    --NAVBAR-FIXED-BACKGROUND-COLOR: var(--GENERAL-COLOR-2);
-    --NAVBAR-FIXED-BRAND-COLOR: var(--GENERAL-FONT-COLOR-2);
-    --NAVBAR-FIXED-BRAND-HOVER-COLOR: var(--GENERAL-LINK-ACTIVE-COLOR-1);
-    --NAVBAR-FIXED-BUTTON-COLOR: var(--GENERAL-LINK-COLOR-2);
-    --NAVBAR-FIXED-BUTTON-HOVER-COLOR: var(--GENERAL-LINK-ACTIVE-COLOR-2);
-*/
+    --NAVBAR-FIXED-BACKGROUND-COLOR: #0d1117;
+    --NAVBAR-FIXED-BRAND-COLOR: #e6edf3;
+    --NAVBAR-FIXED-BRAND-HOVER-COLOR: #79c0ff;
+    --NAVBAR-FIXED-BUTTON-COLOR: #e6edf3;
+    --NAVBAR-FIXED-BUTTON-HOVER-COLOR: #79c0ff;
 
-    /* HOME */
-/*
-    --HOME-BACKGROUND-COLOR: black;
-    --HOME-TITLE-FONT: var(--GENERAL-FONT-3);
-    --HOME-TITLE-COLOR: var(--GENERAL-FONT-COLOR-1);
-    --HOME-TEXT-FONT: var(--GENERAL-FONT-2);
-    --HOME-TEXT-COLOR: var(--GENERAL-FONT-COLOR-1);
-*/
+    /* Home */
+    --HOME-BACKGROUND-COLOR: #0d1117;
+    --HOME-TITLE-COLOR: #e6edf3;
+    --HOME-TEXT-COLOR: #8b949e;
 
-    /* SIDEBAR */
-/*
-    --SIDEBAR-IMAGE-BORDER-RADIUS: var(--GENERAL-IMAGE-BORDER-RADIUS);
-    --SIDEBAR-TITLE-FONT: var(--GENERAL-FONT-1);
-    --SIDEBAR-FONT: var(--GENERAL-FONT-2);
-    --SIDEBAR-LINK-FONT: var(--GENERAL-FONT-1);
-*/
+    /* About */
+    --about-bkg-color: #0d1117;
+    --about-title-color: #e6edf3;
+    --about-title-bar-color: #2f81f7;
+    --about-link-color: #58a6ff;
+    --about-link-color-active: #79c0ff;
+    --about-profile-bkg-color: #161b22;
+    --about-profile-border: 1px solid #21262d;
+    --about-main-bkg-color: #161b22;
+    --about-main-border: 1px solid #21262d;
+    --about-main-text-color: #c9d1d9;
 
+    /* Services */
+    --services-bkg-color: #0d1117;
+    --services-title-color: #e6edf3;
+    --services-title-bar-color: #2f81f7;
+    --services-container-color: transparent;
+    --services-box-color: #161b22;
+    --services-box-border-radius: 12px;
+    --services-box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    --services-icon-color: #2f81f7;
 
-    /* HERO */
-/*
-    --HERO-IMAGE-HEIGHT: 500px;
-    --HERO-IMAGE-HEIGHT-SMALL: 250px;
-    --HERO-IMAGE-MARGIN-BOTTOM: 0px;
-    --HERO-IMAGE-MARGIN-BOTTOM-SMALL: 0px;
-*/
+    /* Skills */
+    --skills-title-color: #e6edf3;
+    --skills-title-bar-color: #2f81f7;
 
+    /* Projects */
+    --projectbox-caption-background-color: rgba(47, 129, 247, 0.9);
 
-    /* ABOUT */
-/*
-    --ABOUT-IMAGE-BORDER-RADIUS: var(--GENERAL-IMAGE-BORDER-RADIUS);
-    --ABOUT-LINK-COLOR: var(--GENERAL-LINK-COLOR-2);
-    --ABOUT-LINK-COLOR-ACTIVE: var(--GENERAL-LINK-ACTIVE-COLOR-2);
-*/
-
-
-    /* SERVICES */
-/*
-    --SERVICES-CONTAINER-COLOR: transparent;
-    --SERVICES-CONTAINER-BORDER-RADIUS: 0px;
-    --SERVICES-CONTAINER-BOX-SHADOW: var(--GENERAL-BOX-SHADOW);
-    --SERVICES-BOX-COLOR: var(--GENERAL-COLOR-2);
-    --SERVICES-BOX-BORDER-RADIUS: 0px;
-    --SERVICES-BOX-BOX-SHADOW: var(--GENERAL-BOX-SHADOW);
-    --SERVICES-ICON-COLOR: var(--GENERAL-COLOR-1);
-*/
-
-
-    /* SKILLS */
-/*
-    --SKILLS-CONTAINER-COLOR: var(--GENERAL-COLOR-2);
-*/
-
-
-    /* PROJECTS */
-/*
-    --PROJECTBOX-NAME-FONT: var(--GENERAL-FONT-2);
-    --PROJECTBOX-CATEGORY-FONT: var(--GENERAL-FONT-2);
-    --PROJECTBOX-DATE-FONT: var(--GENERAL-FONT-2);
-    --PROJECTBOX-CAPTION-BACKGROUND-COLOR: rgba(240, 95, 64, .9);
-*/
-
-
-    /* CONTACT */
-/*
-    --CONTACT-PROFILE-COLOR: var(--GENERAL-COLOR-2);
-    --CONTACT-PROFILE-BORDER-RADIUS: 0px;
-    --CONTACT-PROFILE-BOX-SHADOW: var(--GENERAL-BOX-SHADOW);
-    --CONTACT-IMAGE-BORDER-RADIUS: var(--GENERAL-IMAGE-BORDER-RADIUS);
-*/
-
-
-    /* 404 */
-/*
-    --404-IMAGE-BORDER-RADIUS: var(--GENERAL-IMAGE-BORDER-RADIUS);
-*/
-
+    /* Contact */
+    --contact-title-color: #e6edf3;
+    --contact-title-bar-color: #2f81f7;
+    --contact-color: #c9d1d9;
+    --contact-bkg-color: #0d1117;
 }
